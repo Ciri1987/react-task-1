@@ -12,7 +12,7 @@
             )
         )
     );*/
-;
+'use strict';
 
 var movies = [{
         id: 1,
@@ -60,4 +60,4 @@ var element =
         React.createElement('ul', {}, moviesElements)
     );
 
-ReactDOM.render(element, document.getElementById('app'))
+ReactDOM.render(element, document.getElementById('app'));
